@@ -1,6 +1,6 @@
 # 内核编译环境变量
 export ARCH=arm64
-export CC=/usr/bin/clang-14
+export CC=clang
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export CROSS_COMPILE=aarch64-linux-gnu-
 
@@ -8,4 +8,4 @@ export CROSS_COMPILE=aarch64-linux-gnu-
 export O=out
 
 # 可选：使用所有CPU核心加速编译
-export MAKEFLAGS="-j14"
+export MAKEFLAGS="-j12"
