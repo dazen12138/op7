@@ -313,7 +313,9 @@ CONFIG_STRICT_MODULE_RWX=y
 CONFIG_REFCOUNT_FULL=y
 # CONFIG_PANIC_ON_REFCOUNT_ERROR is not set
 CONFIG_ARCH_HAS_RELR=y
-CONFIG_RELR=y
+
+# can't compile with this option on my local GCC env
+# CONFIG_RELR is not set
 
 #
 # GCOV-based kernel profiling
