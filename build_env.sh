@@ -13,5 +13,5 @@ export O=out
 # source build_env.sh
 # make clean && make mrproper
 # make blu_spark_defconfig
-# make -j12 2>&1 | tee build.log
+# make -j14 2>&1 | tee build.log
 # make menuconfig
