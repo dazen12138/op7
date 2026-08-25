@@ -1,0 +1,138 @@
+make[1]: Entering directory '/home/bing/Projects/op7/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  Using .. as source for kernel
+../drivers/kernelsu/Makefile:28: "KSU_GIT_VERSION not defined! It is better to make KernelSU a git submodule!"
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+  CHK     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      fs/open.o
+  CC      fs/read_write.o
+  DTC     arch/arm64/boot/dts/qcom/sm8150.dtb
+  DTC     arch/arm64/boot/dts/qcom/sm8150-v2.dtb
+  DTC     arch/arm64/boot/dts/qcom/sm8150p.dtb
+  DTC     arch/arm64/boot/dts/qcom/sm8150p-v2.dtb
+  DTC     arch/arm64/boot/dts/qcom/sa8155.dtb
+  DTC     arch/arm64/boot/dts/qcom/sa8155-v2.dtb
+  DTC     arch/arm64/boot/dts/qcom/sa8155p.dtb
+  DTC     arch/arm64/boot/dts/qcom/sa8155p-v2.dtb
+  CC      fs/stat.o
+  CHK     kernel/config_data.h
+  CHK     kernel/kheaders_data.tar.xz
+  CC      fs/exec.o
+../drivers/kernelsu/Makefile:28: "KSU_GIT_VERSION not defined! It is better to make KernelSU a git submodule!"
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+  CC      drivers/input/input.o
+  CC      drivers/kernelsu/ksu.o
+  CC      drivers/kernelsu/allowlist.o
+  CC      drivers/kernelsu/apk_sign.o
+  CC      drivers/kernelsu/sucompat.o
+  CC      drivers/kernelsu/throne_tracker.o
+[01m[K../fs/exec.c:[m[K In function ‘[01m[Kdo_execveat_common[m[K’:
+[01m[K../fs/exec.c:1727:9:[m[K [01;35m[Kwarning: [m[KISO C90 forbids mixed declarations and code [[01;35m[K-Wdeclaration-after-statement[m[K]
+ 1727 |         [01;35m[Kchar[m[K *pathbuf = NULL;
+      |         [01;35m[K^~~~[m[K
+  CC      fs/namespace.o
+  DTC     arch/arm64/boot/dts/qcom/sm8150-qrd-dvt-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-qrd-overlay.dtbo
+  CC      drivers/kernelsu/core_hook.o
+  GEN     kernel/kheaders_data.tar.xz
+  DTC     arch/arm64/boot/dts/qcom/sm8150-rumi-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdx50m-cdp-overlay.dtbo
+  CC      drivers/kernelsu/ksud.o
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdx50m-mtp-2.5k-panel-overlay.dtbo
+  CC      drivers/kernelsu/embed_ksud.o
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdx50m-mtp-overlay.dtbo
+  CC      drivers/kernelsu/kernel_compat.o
+  CC      drivers/kernelsu/selinux/selinux.o
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdx50m-qrd-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdxprairie-cdp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdxprairie-mtp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdxprairie-v2-cdp-overlay.dtbo
+  CC      drivers/kernelsu/selinux/sepolicy.o
+  CC      drivers/kernelsu/selinux/rules.o
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdxprairie-v2-mtp-overlay.dtbo
+[01m[K../fs/exec.c:[m[K At top level:
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-align-mismatch[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-strlcpy-strlcat-size[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-fortify-source[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-pointer-to-enum-cast[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-void-pointer-to-int-cast[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-unsequenced[m[K’ may have been intended to silence earlier diagnostics
+[01m[Kcc1:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-void-pointer-to-enum-cast[m[K’ may have been intended to silence earlier diagnostics
+  DTC     arch/arm64/boot/dts/qcom/sm8150-sdxprairie-v3-mtp-overlay.dtbo
+  AR      drivers/input/input-core.o
+  AR      drivers/input/built-in.o
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-evt1.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-evt2-second.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-evt2.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-evt3.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-pvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-overlay-t0.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-sdx50m-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-sdx50m-overlay-evt1.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-sdx50m-overlay-evt2.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-sdx50m-overlay-pvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamole-sdx50m-overlay-t0.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamoleb-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamoleb-overlay-evt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamoleb-overlay-pvt.dtbo
+  AR      drivers/kernelsu/kernelsu.o
+  AR      drivers/kernelsu/built-in.o
+  DTC     arch/arm64/boot/dts/qcom/guacamoleb-overlay-t0.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamoles-sdx50m-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamoles-sdx50m-overlay-evt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/guacamoles-sdx50m-overlay-pvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdog-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdog-overlay-evt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdog-overlay-pvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdog-overlay-t0.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-dvt-second.dtbo
+  CC      fs/devpts/inode.o
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-evt-second.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-evt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-pvt-second.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-pvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogb-overlay-t0.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogg-sdx55m-overlay-dvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogg-sdx55m-overlay-evt1.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogg-sdx55m-overlay-evt2.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogg-sdx55m-overlay-pvt.dtbo
+  DTC     arch/arm64/boot/dts/qcom/hotdogg-sdx55m-overlay-t0.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sa8155-adp-alcor-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sa8155-adp-star-overlay.dtbo
+  AR      fs/devpts/devpts.o
+  DTC     arch/arm64/boot/dts/qcom/sa8155-v2-adp-air-overlay.dtbo
+  AR      fs/devpts/built-in.o
+  DTC     arch/arm64/boot/dts/qcom/sa8155p-adp-alcor-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sa8155p-adp-star-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sa8155p-v2-adp-air-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-cdp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-hdk-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-marmot-cdp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-marmot-mtp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/sm8150-mtp-overlay.dtbo
+  AR      drivers/built-in.o
+  AR      fs/built-in.o
+  CC      kernel/kheaders.o
+  AR      kernel/built-in.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.o
+  AR      built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o

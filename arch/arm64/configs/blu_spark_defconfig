@@ -6199,3 +6199,6 @@ CONFIG_NF_CONNTRACK_NETLINK=y
 
 # Disable this on older kernels to make internet work
 CONFIG_ANDROID_PARANOID_NETWORK=n
+
+# KernelSU
+CONFIG_KSU=y
